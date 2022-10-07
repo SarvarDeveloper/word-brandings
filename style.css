@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+.container {
+    width: 100%;
+    min-height: 10vh;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(61, 61, 61);
+}
+
+.brand__icons {
+    width: 100%;
+    min-height: 90vh;
+    background-color: gray;
+    font-size: xx-large;
+    padding-top: 200px;
+
+}
+
+.brand__icons i:first-child {
+    color: orange;
+}
+
+.brand__icons i:nth-child(2) {
+    color: aqua;
+}
+
+.brand__icons i:nth-child(3) {
+    color: blue;
+}
+
+.brand__icons i:nth-child(4) {
+    color: rgb(0, 153, 255);
+}
+
+
+p {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 50px;
+
+}
+
+@font-face {
+    font-family: 'Euphoria-Script';
+    src: url(./EuphoriaScript-Regular.ttf);
+}
+
+h1 {
+    font-family: 'Euphoria-Script';
+    color: red;
+    font-size: 60px;
+}
